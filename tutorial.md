@@ -16,15 +16,23 @@ I ended up using [MahApps.Metro](http://mahapps.com/MahApps.Metro/) (a Metro UI 
 Anyway, this all got me interested in how you get from a graphic design to a usable XAML file. This post documents that journey.
 
 
+## Concept
+
+The application I'm going to mock up and convert is a plain text editor named 'metromg'. It is very obviously styled after MarkPad, and despite that is pretty horrible, but I wanted to keep this simple.
+
+
 ## Setting up Fireworks
 
-There is a Fireworks CS4 plugin developed by [Grant Hinkson](http://www.granthinkson.com) that exports to XAML, so we'll use that to get a headstart. You can download it from [here](http://www.granthinkson.com/tools/fireworks/), open the ZIP and double-click the single file. The extension manager will open up and install the extension. I use CS5 but the plugin installed smoothly.
+Obviously you need a copy of Adobe Fireworks. The demo is unrestricted AFAIK, it is just time limited to 30 days. There is a Fireworks CS4 plugin developed by [Grant Hinkson](http://www.granthinkson.com) that exports to XAML, so we'll use that to get a headstart. You can download it from [here](http://www.granthinkson.com/tools/fireworks/), open the ZIP and double-click the single file. The extension manager will open up and install the extension. I use CS5 (the current version as at writing) but the plugin installed smoothly.
 
 When the extension is loaded, open (or reload) Fireworks, and go to Window -> XAML Suite -> FW to XAML. The extension's window will open, just dock it in the toolbar for now.
 
 
 ## Graphic design
-... basic graphic design.
+Do your graphic design. Some guidelines to make things easier further along:
+
+- Use layers to keep components together
+
 
 ## Exporting to XAML
 
